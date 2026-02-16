@@ -5,12 +5,10 @@
 }
 body{
     width: 100%;
-    height: 100vh;
     background-color: none;
 }
 .body{
     width: 100%;
-    height: 100vh;
     background-color: #ffffff;
     margin: 0 auto;
 }
@@ -736,3 +734,213 @@ button{
     color: #ffffff;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 1024px) {
+
+    header {
+        padding: 0 40px;
+    }
+
+    .container {
+        padding: 0 40px;
+        gap: 40px;
+    }
+
+    .features,
+    .sec-3,
+    .sec-4,
+    .sec-5,
+    .footer {
+        padding: 80px 40px;
+    }
+
+    .features-wrapper {
+        flex-direction: column;
+    }
+
+    .sec3-container {
+        flex-direction: column;
+    }
+
+    .sec4-container {
+        flex-direction: column;
+    }
+
+    .sec5-contact {
+        gap: 50px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 0 20px;
+    }
+
+    header ul {
+        display: none; /* hide nav links on mobile */
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .container h1 {
+        font-size: 26px;
+        margin-top: 180px;
+    }
+
+    .container h4 {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .container h6 {
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    .container .buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .sec-2 {
+        height: auto;
+        padding: 30px 20px;
+    }
+
+    .features {
+        padding: 60px 20px;
+    }
+
+    .features h2 {
+        font-size: 24px;
+    }
+
+    .features-wrapper {
+        flex-direction: column;
+    }
+
+    .feature-box {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .sec-3,
+    .sec-4,
+    .sec-5 {
+        padding: 60px 20px;
+    }
+
+    .sec3-text h2,
+    .sec4-left h2,
+    .sec-5 h2 {
+        font-size: 26px;
+    }
+
+    .sec3-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sec3-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sec4-container {
+        flex-direction: column;
+    }
+
+    .faq-question h4 {
+        font-size: 16px;
+    }
+
+    .testimonial-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .test-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sec5-contact {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer {
+        padding: 60px 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .newsletter input {
+        width: 100%;
+    }
+
+    .store-buttons {
+        flex-direction: column;
+    }
+
+}
+
+
+
+@media (max-width: 480px) {
+
+    .container h1 {
+        font-size: 22px;
+    }
+
+    .features h2,
+    .sec3-text h2,
+    .sec4-left h2,
+    .sec-5 h2 {
+        font-size: 22px;
+    }
+
+    .feature-box p,
+    .sec3-sub,
+    .sec4-left p,
+    .sec5-sub {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+}
